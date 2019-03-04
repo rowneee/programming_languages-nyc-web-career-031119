@@ -4,6 +4,7 @@ def reformat_languages(languages)
     type_value.each do |language, type|
       if type.has_key?(language)
         new_hash << language
+      end
     end 
   end
   return new_hash
