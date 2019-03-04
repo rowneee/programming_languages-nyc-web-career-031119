@@ -5,7 +5,7 @@ def reformat_languages(languages)
       if new_hash.has_key?(style)
         new_hash.shift
       end
-      new_hash
+      type[:style] << shift
     end 
   end
   new_hash
