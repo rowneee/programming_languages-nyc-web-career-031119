@@ -5,6 +5,7 @@ def reformat_languages(languages)
       if type_value[:oo] == oo
         new_hash << language
       end
-  end  
+    end 
+  end
   new_hash
 end
