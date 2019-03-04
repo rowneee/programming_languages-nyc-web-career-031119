@@ -8,9 +8,8 @@ def reformat_languages(languages)
         style_key = "style"
         new_hash.push(style_key)
         style_key = style_key.to_sym
-        [style_key] = style
-        new_hash << style_key
-    
+        new_hash << [style_key] = style
+        
     end 
   end
   new_hash
