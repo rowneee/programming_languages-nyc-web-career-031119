@@ -5,11 +5,6 @@ def reformat_languages(languages)
       if new_hash.has_key?(style)
         new_hash.delete(style)
       end
-        style_key = "style"
-        new_hash.push(style_key)
-        style_key = style_key.to_sym
-        type << [style_key] = style
-        new_hash << type
     end 
   end
   new_hash
