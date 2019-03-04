@@ -6,5 +6,5 @@ def reformat_languages(languages)
       new_hash << type_value
     end 
   end
-  new_hash
+  return new_hash
 end
