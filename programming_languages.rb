@@ -1,8 +1,8 @@
 def reformat_languages(languages)
   new_hash = {}
   languages.each do |type, type_value|
-    type_value.each do |type_style|
-      new_hash << "#{type_value} => #{type_style}"
+    type_value.each do |language, type_style|
+      new_hash << 
     end 
   end
   return new_hash
